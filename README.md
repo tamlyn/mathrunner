@@ -40,6 +40,20 @@ npm run build
 npm run preview
 ```
 
+## Deployment
+
+The game automatically deploys to GitHub Pages when changes are pushed to the `main` branch.
+
+### GitHub Pages Setup
+
+1. Go to your repository settings
+2. Navigate to "Pages" under "Code and automation"
+3. Under "Build and deployment", select:
+   - **Source**: GitHub Actions
+4. The workflow will automatically run on push to `main`
+
+The game will be available at: `https://[username].github.io/mathrunner/`
+
 ## Game Controls
 
 - **Mouse/Touch**: Tap on number tiles at the bottom to select answers
